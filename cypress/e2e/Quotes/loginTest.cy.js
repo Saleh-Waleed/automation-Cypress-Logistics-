@@ -3,9 +3,9 @@ import { loginPage } from "../../Pages/loginPage"; // importing login page class
 import QuotesData from '../../fixtures/QuotesData.json'; // importing fixture data
 import { QuotesPage } from '../../Pages/QuotesPage.js';
 import loginData from '../../fixtures/loginData.json'
-                                                  
+                                                 
  const QuotesForm = new QuotesPage()
-           
+
 describe('Login Test using valid credentials', () => {
     before(() => {
      cy.login(loginData.loginDetails.loginEmail, loginData.loginDetails.longinPassword);
