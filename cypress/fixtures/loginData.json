@@ -1,0 +1,17 @@
+{ 
+           
+"weblocators": 
+{
+"email": ":nth-child(2) > .bg-white",
+"password": ":nth-child(3) > .bg-white",
+"submitButton": ".bg-primary",
+"URL":  "http://3.216.228.177/login"
+},
+
+"loginDetails":
+{
+"loginEmail": "Saleh.Waleed@newl.ca",
+"longinPassword": "123456"
+             
+          }
+        }
